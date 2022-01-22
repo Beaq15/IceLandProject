@@ -20,8 +20,8 @@ namespace Tmpl8 {
 
 		//draw black border
 		renderer->Box(x, y, x + 102, y + 12, 0x000000);
-		float hpF = hp;//so we dont get stuck with integer division
-		int hpBarWidth = (hpF / hpMax) * 100;//100 is width of pixels of full health bar
+		float hpF = (float)hp;//so we dont get stuck with integer division
+		int hpBarWidth = (int)(hpF / hpMax) * 100;//100 is width of pixels of full health bar
 		if (hpBarWidth < 0)
 			hpBarWidth = 0;
 
