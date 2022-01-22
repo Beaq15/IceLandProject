@@ -34,7 +34,7 @@ namespace Tmpl8 {
 		if (quitButton.selected && keysStates[(int)Keys::left])
 		{
 			quitButton.selected = false;
-			playButton.selected = right;
+			playButton.selected = (bool) right;
 		}
 		if (keysStates[(int)Keys::enter] && playButton.selected)
 		{
