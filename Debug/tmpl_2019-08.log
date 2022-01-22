@@ -1,0 +1,19 @@
+﻿  Animation.cpp
+  AnimationManager.cpp
+  BattleEffects.cpp
+  BattleScreen.cpp
+  BigFoot.cpp
+  Button.cpp
+  Character.cpp
+  CharacterAnimationSet.cpp
+  CharacterType.cpp
+  MainMenu.cpp
+C:\Users\Bea\source\TheTemplate\MainMenu.cpp(37,31): warning C4305: '=': truncation from 'std::ios_base &(__cdecl *)(std::ios_base &)' to 'bool'
+  MapObject.cpp
+  MapScreen.cpp
+  SnowQueen.cpp
+  Snowman.cpp
+  game.cpp
+  template.cpp
+  Generating Code...
+  tmpl_2019-08.vcxproj -> C:\Users\Bea\source\TheTemplate\tmpl_2019-08_x86_debug.exe
